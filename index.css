@@ -1,0 +1,162 @@
+body {
+
+    letter-spacing: 2px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* İçerik */
+
+.icerik {
+
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 30px
+}
+
+/* İçerik Bitiş */
+
+/* Açılır Menü  */
+
+.alt-menu {
+    position: absolute;
+    display: none;
+}
+
+.alt-menu a {
+    display: block;
+    line-height: 30px;
+    background: #3f3f3f;
+    border: 3px solid black;
+    border-bottom-right-radius: 5px;
+}
+
+.alt-menu a:hover {
+    transform: scale(1.15);
+    color: #3f3f3f;
+    background-color: #fff;
+}
+
+/* Açılır Menü Bitiş */
+
+/* Nav-bar */
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(rgba(0, 0, 0, .7),
+            rgba(0, 0, 0, .4));
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.ana-link {
+
+    display: inline-block;
+    top: 40px;
+    padding: 50px;
+}
+
+.ana-link a:hover {
+    color: red;
+    transition: .6s;
+}
+
+.ana-link a {
+
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.ana-link:hover .alt-menu {
+    display: block;
+}
+
+/* Nav-bar Bitiş*/
+
+hr {
+    border: 1px solid red;
+}
+
+h2 {
+
+    font-size: x-large;
+}
+
+
+/* Fotoğraf */
+
+.yuvarlak {
+
+    border-radius: 50%;
+}
+
+/* Fotoğraf Bitiş */
+
+
+/* Kaynaklar */
+
+.bilgilendirme {
+    display: flex;
+}
+
+.kutu {
+    width: 100%;
+    margin: 5% 5% 0 5%;
+    display: inline-block;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #58585a;
+    height: 300px;
+}
+
+.kutu span {
+    color: #025aad;
+    font-size: 18px;
+    display: inline-block;
+    margin: 10% 15% 0 0;
+}
+
+.kutu i {
+    font-size: 48px;
+    border-radius: 50%;
+    border: 1px solid #025aad;
+    color: #025aad;
+    padding: 40px 0 20px 45px;
+    width: 90px;
+    height: 63px;
+}
+
+/* Kaynaklar Bitiş */
+
+/* Footer  */
+
+footer {
+    display: flex;
+    position: relative;
+    padding: 40px 20px 50px 40px;
+    background-color: #3f3f3f;
+    color: azure;
+}
+
+footer li {
+    padding: 10px 30px;
+}
+
+footer li a{
+    width: 100%;
+    display:block;
+    text-decoration: none;
+    color:antiquewhite;
+    padding: 2% 15%;
+}
+
+footer li a:hover {
+    color: black;
+}
+
+h3 {
+    text-align: center;
+}
