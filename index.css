@@ -98,7 +98,7 @@ h2 {
 
 /* Kaynaklar */
 
-.bilgilendirme {
+.kaynak {
     display: flex;
 }
 
@@ -160,3 +160,5 @@ footer li a:hover {
 h3 {
     text-align: center;
 }
+
+/* Footer Bitiş */
