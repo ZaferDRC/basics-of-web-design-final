@@ -2,6 +2,7 @@ body {
 
     letter-spacing: 2px;
     font-family: 'Raleway', sans-serif;
+background: radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
 }
 
 /* İçerik */
@@ -11,6 +12,7 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     line-height: 30px;
+    color: white;
 }
 
 /* İçerik Bitiş */
@@ -165,7 +167,7 @@ h3 {
     display: flex;
     justify-content: center;
     margin: 1% ;
-    color: black;
+    color: white;
 }
 
 /* Footer Bitiş */

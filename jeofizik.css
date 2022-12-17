@@ -2,6 +2,7 @@ body {
 
     letter-spacing: 2px;
     font-family: 'Raleway', sans-serif;
+    background: radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
 }
 
 /* İçerik */
@@ -11,7 +12,9 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     line-height: 30px;
+    color: #fff;
 }
+
 
 /* İçerik Bitiş */
 
@@ -85,17 +88,6 @@ h2 {
     font-size: x-large;
 }
 
-
-/* Fotoğraf */
-
-.yuvarlak {
-
-    border-radius: 50%;
-}
-
-/* Fotoğraf Bitiş */
-
-
 /* Kaynaklar */
 
 .kaynak {
@@ -123,7 +115,7 @@ h2 {
     font-size: 48px;
     border-radius: 50%;
     border: 1px solid #025aad;
-    color: #025aad;
+    color: rebeccapurple;
     padding: 40px 0 20px 45px;
     width: 90px;
     height: 63px;
@@ -145,11 +137,11 @@ footer li {
     padding: 10px 30px;
 }
 
-footer li a{
+footer li a {
     width: 100%;
-    display:block;
+    display: block;
     text-decoration: none;
-    color:antiquewhite;
+    color: antiquewhite;
     padding: 2% 15%;
 }
 
@@ -164,8 +156,8 @@ h3 {
 .footerbar {
     display: flex;
     justify-content: center;
-    margin: 1% ;
-    color: black;
+    margin: 1%;
+    color: white;
 }
 
 /* Footer Bitiş */
