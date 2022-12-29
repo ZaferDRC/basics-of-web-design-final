@@ -160,3 +160,89 @@ h3 {
 }
 
 /* Footer Bitiş */
+
+
+
+/* Responsive */
+
+@media only screen and (min-width: 480px) and (max-width: 989px) {
+    /*TABLET*/
+
+    .menu li{
+        display: block;
+    }
+
+    .logo{
+
+        display: none;
+        background-color: black;
+
+    }
+
+
+
+    footer {
+        display: block;
+        padding: 10px 10px 10px 10px;
+        background-color: #3f3f3f;
+        color: azure;
+    }
+
+
+
+    .kaynak {
+        display: block;
+        text-align: center;
+    }
+
+    .kutu i {
+        padding: 7% 5% 4% 5%;
+
+    }
+
+    marquee{
+
+        padding: 30px;
+    }
+
+}
+
+
+@media only screen and (max-width: 479px) {
+    /*TELEFON*/
+
+    .menu li{
+        display: block;
+    }
+
+    .logo{
+
+        display: none;
+        background-color: black;
+
+    }
+
+
+
+    footer {
+        display: block;
+        padding: 10px 10px 10px 10px;
+        background-color: #3f3f3f;
+        color: azure;
+    }
+
+
+
+    .kaynak {
+        display: block;
+        text-align: center;
+    }
+
+    .kutu i {
+        padding: 7% 5% 4% 5%;
+
+    }
+
+}
+
+/* Responsive Bitiş*/
